@@ -6,21 +6,237 @@
 		<assault-offenses>
 			<total-victims id="assault-o">2,063,412</total-victims>
 			<age range="10 and under">
-				<victims>63,017</victims>
+				<victims> 63,017 </victims>
 			</age>
 			<age range="11-15">
-				<victims>88,630</victims>
+				<victims> 88,630 </victims>
 			</age>
 			<age range="16-20">
-				<victims>203,136</victims>
+				<victims> 203,136 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 277,106 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 295,344 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 262,695 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 221,466 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 164,949 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 139,273 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 111,736 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 91,895 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 57,014 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 62,329 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 24,822 </victims>
 			</age>
 		</assault-offenses>
+		<homicide-offenses>
+			<total-victims id="homicide-o"> 11,815 </total-victims>
+			<age range="10 and under">
+				<victims> 447 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 257 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 1,558 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 1,817 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 1,755 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 1,390 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 1,144 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 796 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 659 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 511 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 477 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 336 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 532 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 106 </victims>
+			</age>
+		</homicide-offenses>
+		<human-trafficking>
+			<total-victims id="human-t"> 1,576 </total-victims>
+			<age range="10 and under">
+				<victims> 69 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 379 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 468 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 131 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 102 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 83 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 66 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 34 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 27 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 9 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 15 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 2 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 10 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 181 </victims>
+			</age>
+		</human-trafficking>
+		<kidnapping-abduction>
+			<total-victims id="kidnapping-a"> 31,216 </total-victims>
+			<age range="10 and under">
+				<victims> 3,235 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 1,846 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 3,657 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 4,743 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 4,640 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 3,882 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 3,319 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 2,015 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 1,286 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 904 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 579 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 359 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 495 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 256 </victims>
+			</age>
+		</kidnapping-abduction>
+		<sex-offenses>
+			<total-victims id="sex-o"> 127,261 </total-victims>
+			<age range="10 and under">
+				<victims> 25,571 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 33,599 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 23,041 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 11,348 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 8,554 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 6,777 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 5,167 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 3,498 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 2,707 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 1,940 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 1,386 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 776 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 1,441 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 1,276 </victims>
+			</age>
+		</sex-offenses>
 	</crime-against-person>
+
 	<crime-against-property>
 		
 	</crime-against-property>
+
 	<total>
 		<overall-total-victims>6,597,394</overall-total-victims>
+		<!-- Total number of victims of crimes against person and property based on the age range -->
 		<person-property-combine span="10 and under">
 			<victim-totality> 104,781 </victim-totality>
 		</person-property-combine>
@@ -63,5 +279,93 @@
 		<person-property-combine span="unknown age">
 			<victim-totality> 88,987 </victim-totality>
 		</person-property-combine>
+
+		<!-- Total number of victims of crimes against person based on the age range -->
+		<c-a-person-total scope="10 and under">
+			<num-victims> 92,549 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="11-15">
+			<num-victims> 124,711 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="16-20">
+			<num-victims> 231,860 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="21-25">
+			<num-victims> 295,145 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="26-30">
+			<num-victims> 310,395 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="31-35">
+			<num-victims> 274,827 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="36-40">
+			<num-victims> 231,162 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="41-45">
+			<num-victims> 171,292 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="46-50">
+			<num-victims> 143,952 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="51-55">
+			<num-victims> 115,100 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="56-60">
+			<num-victims> 94,352 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="61-65">
+			<num-victims> 58,487 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="66 and over">
+			<num-victims> 64,807 </num-victims>
+		</c-a-person-total>
+		<c-a-person-total scope="unknown age">
+			<num-victims> 26,641 </num-victims>
+		</c-a-person-total>
+
+		<!-- Total number of victims of crimes against property based on the age range -->
+		<c-a-property-total scope="10 and under">
+			<num-victims> 12,232 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="11-15">
+			<num-victims> 21,991 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="16-20">
+			<num-victims> 215,246 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="21-25">
+			<num-victims> 450,092 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="26-30">
+			<num-victims> 507,633 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="31-35">
+			<num-victims> 479,748 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="36-40">
+			<num-victims> 445,978 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="41-45">
+			<num-victims> 385,492 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="46-50">
+			<num-victims> 373,212 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="51-55">
+			<num-victims> 342,588 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="56-60">
+			<num-victims> 331,061 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="61-65">
+			<num-victims> 264,474 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="66 and over">
+			<num-victims> 470,021 </num-victims>
+		</c-a-property-total>
+		<c-a-property-total scope="unknown age">
+			<num-victims> 62,346 </num-victims>
+		</c-a-property-total>
 	</total>	
 </offense-category>

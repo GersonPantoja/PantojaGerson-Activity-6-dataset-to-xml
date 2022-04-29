@@ -1,5 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <offense-category>
-	
+	<crime-against-person>
+		<total-victims category="person"> 2,235,280 </total-victims>
+		<assault-offenses>
+			<total-victims id="assault-o">2,063,412</total-victims>
+			<age range="10 and under">
+				<victims>63,017</victims>
+			</age>
+			<age range="11-15">
+				<victims>88,630</victims>
+			</age>
+			<age range="16-20">
+				<victims>203,136</victims>
+			</age>
+		</assault-offenses>
+	</crime-against-person>
+	<crime-against-property>
+		
+	</crime-against-property>
+	<total>
+		<overall-total-victims>6,597,394</overall-total-victims>
+		<person-property-combine span="10 and under">
+			<victim-totality> 104,781 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="11-15">
+			<victim-totality> 146,702 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="16-20">
+			<victim-totality> 447,106 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="21-25">
+			<victim-totality> 745,237 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="26-30">
+			<victim-totality> 818,028 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="31-35">
+			<victim-totality> 754,575 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="36-40">
+			<victim-totality> 677,140 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="41-45">
+			<victim-totality> 556,784 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="46-50">
+			<victim-totality> 517,164 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="51-55">
+			<victim-totality> 457,688 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="56-60">
+			<victim-totality> 425,413 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="61-65">
+			<victim-totality> 322,961 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="66 and over">
+			<victim-totality> 534,828 </victim-totality>
+		</person-property-combine>
+		<person-property-combine span="unknown age">
+			<victim-totality> 88,987 </victim-totality>
+		</person-property-combine>
+	</total>	
 </offense-category>

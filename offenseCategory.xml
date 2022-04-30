@@ -1,4 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE offense-category [
+
+<!-- Document type declaration to make the xml file valid and well-formed -->
+	<!ELEMENT offense-category (crime-against-person, crime-against-property, total)>
+	<!ELEMENT crime-against-person (total-victims, assault-offenses,homicide-offenses, human-trafficking,kidnapping-abduction, sex-offenses)>
+	<!ELEMENT assault-offenses (total-victims,age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT homicide-offenses (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT human-trafficking (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT kidnapping-abduction (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT sex-offenses (total-victims, age)>
+	<!ELEMENT age (victims)>
+
+	<!ELEMENT crime-against-property (total-victims ,arson, bribery, breaking-entering, counterfeiting, destruction-damage-vandalism, embezzlement, extortion, fraud-offenses, theft-offenses, motor-vehicle-theft,
+	robbery, stolen-property-offenses)>
+	<!ELEMENT arson (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT bribery (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT breaking-entering (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT counterfeiting (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT destruction-damage-vandalism (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT embezzlement (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT extortion (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT fraud-offenses (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT theft-offenses (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT motor-vehicle-theft (total-victims, age)>
+	<!ELEMENT robbery (total-victims, age)>
+	<!ELEMENT age (victims)>
+	<!ELEMENT stolen-property-offenses (total-victims, age)>
+	<!ELEMENT age (victims)>
+
+	<!ELEMENT total (overall-total-victims, person-property-combine, c-a-person-total, c-a-property-total)>
+	<!ELEMENT person-property-combine (victim-totality)>
+	<!ELEMENT c-a-person-total (num-victims)>
+	<!ELEMENT c-a-property-total (num-victims)>
+
+	<!ELEMENT crime-against-person (#PCDATA)>
+	<!ELEMENT crime-against-property (#PCDATA)>
+	<!ELEMENT total (#PCDATA)>
+	<!ELEMENT total-victims (#PCDATA)>
+	<!ELEMENT assault-offenses (#PCDATA)>
+	<!ELEMENT homicide-offenses (#PCDATA)>
+	<!ELEMENT human-trafficking (#PCDATA)>
+	<!ELEMENT kidnapping-abduction (#PCDATA)>
+	<!ELEMENT sex-offenses (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT arson (#PCDATA)>
+	<!ELEMENT bribery (#PCDATA)>
+	<!ELEMENT breaking-entering (#PCDATA)>
+	<!ELEMENT counterfeiting (#PCDATA)>
+	<!ELEMENT destruction-damage-vandalism (#PCDATA)>
+	<!ELEMENT embezzlement (#PCDATA)>
+	<!ELEMENT extortion (#PCDATA)>
+	<!ELEMENT fraud-offenses (#PCDATA)>
+	<!ELEMENT theft-offenses (#PCDATA)>
+	<!ELEMENT motor-vehicle-theft (#PCDATA)>
+	<!ELEMENT robbery (#PCDATA)>
+	<!ELEMENT stolen-property-offenses (#PCDATA)>
+	<!ELEMENT overall-total-victims (#PCDATA)>
+	<!ELEMENT person-property-combine (#PCDATA)>
+	<!ELEMENT c-a-person-total (#PCDATA)>
+	<!ELEMENT c-a-property-total (#PCDATA)>
+	<!ELEMENT victim-totality (#PCDATA)>
+	<!ELEMENT num-victims (#PCDATA)>
+
+	<!ATTLIST total-victims category CDATA #REQUIRED>
+	<!ATTLIST total-victims id CDATA #REQUIRED>
+	<!ATTLIST age range CDATA #REQUIRED>
+	<!ATTLIST person-property-combine span CDATA #REQUIRED>
+	<!ATTLIST c-a-person-total scope CDATA #REQUIRED>
+]>
+
 <offense-category>
 	<crime-against-person>
 		<total-victims category="person"> 2,235,280 </total-victims>

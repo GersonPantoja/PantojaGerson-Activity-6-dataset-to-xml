@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <offense-category>
 	<crime-against-person>
 		<total-victims category="person"> 2,235,280 </total-victims>
@@ -231,7 +230,548 @@
 	</crime-against-person>
 
 	<crime-against-property>
-		
+		<total-victims category="property"> 4,362,114 </total-victims>
+		<arson>
+			<total-victims id="fire"> 18,219 </total-victims>
+			<age range="10 and under">
+				<victims> 417 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 227 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 572 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 1,211 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 1,673 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 1,835 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 1,941 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 1,659 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 1,626 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 1,440 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 1,409 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 1,151 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 1,951 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 1,107 </victims>
+			</age>
+		</arson>
+		<bribery>
+			<total-victims id="money"> 463 </total-victims>
+			<age range="10 and under">
+				<victims> 12 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 14 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 46 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 87 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 82 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 55 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 40 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 35 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 20 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 14 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 12 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 7 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 11 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 28 </victims>
+			</age>
+		</bribery>
+		<breaking-entering>
+			<total-victims id="burglary"> 467,235 </total-victims>
+			<age range="10 and under">
+				<victims> 2,181 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 2,413 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 18,067 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 43,149 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 50,869 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 50,445 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 46,556 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 39,991 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 39,311 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 37,579 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 37,731 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 31,862 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 60,502 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 6,579 </victims>
+			</age>
+		</breaking-entering>
+		<counterfeiting>
+			<total-victims id="forgery"> 51,187 </total-victims>
+			<age range="10 and under">
+				<victims> 107 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 122 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 46 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 2,920 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 3,545 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 3,856 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 4,231 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 3,956 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 4,191 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 4,180 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 4,703 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 4,376 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 11,103 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 2,116 </victims>
+			</age>
+		</counterfeiting>
+		<destruction-damage-vandalism>
+			<total-victims id="d-d-v"> 845,368 </total-victims>
+			<age range="10 and under">
+				<victims> 2,011 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 2,341 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 42,978 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 91,603 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 102,523 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 95,074 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 89,736 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 76,075 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 72,123 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 65,808 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 63,230 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 50,681 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 81,119 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 10,066 </victims>
+			</age>
+		</destruction-damage-vandalism>
+		<embezzlement>
+			<total-victims id="embezzle"> 5,452 </total-victims>
+			<age range="10 and under">
+				<victims> 7 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 9 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 136 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 307 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 435 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 485 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 527 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 502 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 510 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 485 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 529 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 402 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 999 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 119 </victims>
+			</age>
+		</embezzlement>
+		<extortion>
+			<total-victims id="blackmail"> 9,294 </total-victims>
+			<age range="10 and under">
+				<victims> 30 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 361 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 1,959 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 1,534 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 971 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 738 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 600 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 587 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 494 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 440 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 413 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 372 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 726 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 69 </victims>
+			</age>
+		</extortion>
+		<fraud-offenses>
+			<total-victims id="fraud-o"> 588,383 </total-victims>
+			<age range="10 and under">
+				<victims> 938 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 1,252 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 23,538 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 41,587 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 48,225 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 48,850 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 51,981 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 55,196 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 60,035 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 57,217 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 55,992 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 44,791 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 90,050 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 8,731 </victims>
+			</age>
+		</fraud-offenses>
+		<theft-offenses>
+			<total-victims id="larceny"> 1,811,008 </total-victims>
+			<age range="10 and under">
+				<victims> 4,522 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 11,609 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 93,972 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 203,216 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 226,403 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 211,510 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 189,002 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 156,846 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 147,379 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 133,798 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 128,186 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 102,582 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 180,779 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 21,204 </victims>
+			</age>
+		</theft-offenses>
+		<motor-vehicle-theft>
+			<total-victims id="car-theft"> 381,071 </total-victims>
+			<age range="10 and under">
+				<victims> 354 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 221 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 13,388 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 39,833 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 49,495 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 46,767 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 43,796 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 36,874 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 34,471 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 30,464 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 28,200 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 21,070 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 32,175 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 3,963 </victims>
+			</age>
+		</motor-vehicle-theft>
+		<robbery>
+			<total-victims id="steal"> 117,663 </total-victims>
+			<age range="10 and under">
+				<victims> 759 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 3,225 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 16,310 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 18,773 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 16,290 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 13,265 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 11,214 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 8,640 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 7,596 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 6,651 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 5,893 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 3,940 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 4,402 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 705 </victims>
+			</age>
+		</robbery>
+		<stolen-property-offenses>
+			<total-victims id="stolen-p-o"> 66,771 </total-victims>
+			<age range="10 and under">
+				<victims> 894 </victims>
+			</age>
+			<age range="11-15">
+				<victims> 197 </victims>
+			</age>
+			<age range="16-20">
+				<victims> 2,499 </victims>
+			</age>
+			<age range="21-25">
+				<victims> 5,872 </victims>
+			</age>
+			<age range="26-30">
+				<victims> 7,122 </victims>
+			</age>
+			<age range="31-35">
+				<victims> 6,868 </victims>
+			</age>
+			<age range="36-40">
+				<victims> 6,354 </victims>
+			</age>
+			<age range="41-45">
+				<victims> 5,131 </victims>
+			</age>
+			<age range="46-50">
+				<victims> 5,456 </victims>
+			</age>
+			<age range="51-55">
+				<victims> 4,512 </victims>
+			</age>
+			<age range="56-60">
+				<victims> 4,763 </victims>
+			</age>
+			<age range="61-65">
+				<victims> 3,240 </victims>
+			</age>
+			<age range="66 and over">
+				<victims> 6,204 </victims>
+			</age>
+			<age range="unknown age">
+				<victims> 7,659 </victims>
+			</age>
+		</stolen-property-offenses>
+
 	</crime-against-property>
 
 	<total>
